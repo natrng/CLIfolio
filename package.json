@@ -1,0 +1,26 @@
+{
+  "name": "nodlematch",
+  "version": "1.0.0",
+  "description": "node.js cli to create portfolio page",
+  "main": "index.js",
+  "bin": {
+    "create-portfolio": "bin/create-portfolio"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "create-portfolio"
+  ],
+  "author": "Nadia Nguyen",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "esm": "^3.2.25",
+    "figlet": "^1.5.0",
+    "inquirer": "^7.3.3"
+  }
+}
